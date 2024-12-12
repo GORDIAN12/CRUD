@@ -1,1 +1,1 @@
-![img alt](https://raw.githubusercontent.com/GORDIAN12/CRUD/2e7b587c41587a7252f1e9415d1dd1186a33c99f/list_view.png)
+![img alt](https://github.com/GORDIAN12/CRUD/blob/c5ecc2c4dfc597efa5d9519e618e3d31ba049c6e/list_view.jpg)
