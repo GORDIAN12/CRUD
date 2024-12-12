@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block titulo %} crear clientes {% endblock %}
+{% block content %}
+
+<div class="card">
+<div class="card-header">
+	Insertar cliente
+</div>
+  <div class="card-body">
+  	<h4 class="card-title">Datos del Cliente</h4>
+	{% include 'clients/form.html' %}	
+  </div>		
+</div>
+{% endblock %}

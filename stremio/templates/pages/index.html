@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block titulo %} Inicio {% endblock %}
+{% block contentpage %}
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <img src="https://msdi.cl/website/wp-content/uploads/2023/03/productos-de-acrilico-para-consultas-medicas-1.webp"
+      class="d-block w-100" 
+      style="object-fit: cover; height: 500px;filter: brightness(50%); ">
+      <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 100%;">
+        <h3 class="text-white">Texto centrado en la primera imagen</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://logrono.fisio-clinics.com/sites/default/files/styles/cabecera_articulo/public/field/image/fisioterapia_en_el_hogar_1.png?itok=g2nnv3fk" 
+	   class="d-block w-100" 
+	   style="object-fit: cover; height: 500px; filter: brightness(50%);">
+      <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 100%;">
+        <h3 class="text-white">Texto centrado en la segunda imagen</h3>
+      </div>
+    </div>
+    <div class="carousel-item" >
+      <img src="https://blog.auna.pe/hs-fs/hubfs/Imported_Blog_Media/Foto-1-portada-1-2.jpg?width=1280&height=720&name=Foto-1-portada-1-2.jpg"
+      class="d-block w-100" 
+      style="object-fit: cover; height: 500px; filter: brightness(50%);">
+      <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 100%;">
+        <h3 class="text-white">Texto centrado en la tercera imagen</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-4 justify-content-center">
+      <!-- Tarjeta 1 -->
+      <div class="col">
+                 <div class="card" style="width: 18rem; height: 16rem;border: none; ">
+			 <img src="{%static "imagenes/dentista.png"%}" class="card-imgdd-top" alt="Imagen 1"style="width: 43%; height: 120px; object-fit: cover;display: block; margin: 0 auto; " >
+          <div class="card-body text-center">
+            <h5 class="card-title">Dentistas</h5>
+            <p class="card-text" style="text-align: justify;">Especialista en la prevención, diagnóstico y tratamiento de enfermedades dentales y bucales.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="col">
+        <div class="card" style="width: 20rem; height: 16rem;border: none; ">
+		<img src="{%static "imagenes/mental.png"%}" class="card-img-top" alt="Imagen 2"style="width: 40%; height: 120px; object-fit: cover;display: block; margin: 0 auto; " >
+          <div class="card-body text-center">
+		  <h5 class="card-title">Psiquiatras </h5>
+            <p class="card-text" style="text-align: justify;"> Experto en salud mental y tratamiento de trastornos psicológicos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem; height: 16rem;border: none; ">
+          <img src="{%static "imagenes/medico.png"%}" class="card-img-top" alt="Imagen 2" style="width: 40%; height: 120px; object-fit: cover;display: block; margin: 0 auto; ">
+          <div class="card-body text-center ">
+            <h5 class="card-title">Medicos</h5>
+            <p class="card-text" style="text-align: justify;">Profesional general para el cuidado integral de la salud.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Tarjeta 3 -->
+      <div class="col">
+                <div class="card" style="width: 18rem; height: 16rem;border: none;  ">
+                    <img src="{%static "imagenes/fisio.png"%}" class="card-img-top" alt="Imagen 2" style="width: 40%; height: 120px; object-fit: cover; display: block; margin: 0 auto; ">
+			<div class="card-body text-center">
+					<h5 class="card-title">Fisioterapia  y Rehabilitacion</h5>
+            <p class="card-text" style="text-align: justify;">Terapeuta especializado en mejorar la movilidad física.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
