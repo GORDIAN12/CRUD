@@ -1,1 +1,1 @@
-![Captura desde 2024-12-12 00-45-33](https://github.com/user-attachments/assets/8c7dc22b-ce1e-4f01-899a-da928f0aa8fb)
+![img alt](https://github.com/GORDIAN12/CRUD/blob/2e7b587c41587a7252f1e9415d1dd1186a33c99f/list_view.png)
